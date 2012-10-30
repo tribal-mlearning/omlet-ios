@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TribalMobile' target in the 'TribalMobile' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

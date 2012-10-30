@@ -1,0 +1,53 @@
+/*
+ * PhoneGap is available under *either* the terms of the modified BSD license *or* the
+ * MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
+ * 
+ * Copyright (c) 2011, IBM Corporation
+ */
+
+
+// accessibility label for recording button
+"toggle audio recording" = "toggle audio recording";
+// notification spoken by VoiceOver when timed recording finishes
+"timed recording complete" = "timed recording complete";
+// accessibility hint for display of recorded elapsed time
+"recorded time in minutes and seconds" = "recorded time in minutes and seconds";
+
+"No internet connection" = "To access this app you need to be a user and have wireless or cellular network access to authenticate.";
+"Access denied" = "Unable to verify PIN code. Please check and try again.";
+"Info text" = "About text...";
+"Application Title" = "OMLET";
+"Logout Message" = "Logging out will remove all user data and progress that has not been synchronized. Do you wish to continue?";
+"Logout Title" = "Logout";
+"sync error" = "Sync unsuccessful, please check your connection";
+
+
+//Package Opening
+"PackageOpenNotDownloaded" = "Referenced course has not been downloaded yet.";
+"PackageOpenNoSuchPackage" = "Referenced course does not exist";
+"PackageOpenNoConnectivity" = "Referenced course not downloaded, no connectivity";
+"PackageOpenNoSuchResource" = "Referenced course contains no such resource";
+
+"RedirectToDownloadPackageTitle" = "Course download";
+"RedirectToDownloadPackageMessage" = "The referenced item is contained within the course '%@'. This course is available on the m-Learning Suite. Would you like to be redirected to download this course?";
+
+"FileOpenNoApp" = "Unable to open file";
+"FileOpenNoAppDetail" = "Your device does not have an application that is able to open %@ files. Please visit the App Store to download one.";
+
+//SSL
+"CertificateNotTrusted" = "SSL certificate not trusted";
+"CertificateNotTrustedDetail" = "This application is attempting to connect to a server that does not have a trusted SSL certificate. If you wish to connect anyway, please change the 'Self-signed SSL certs'. setting in Settings.";
+
+//General
+"DialogOK" = "Dismiss";
+"DialogCancel" = "Cancel";
+"DialogContinue" = "Continue";
+"DialogYes" = "Yes";
+"DialogNo" = "No";
+
+//On Device
+"NoCoursesDownloaded" = "No courses downloaded";
+
+//Home
+"NewsTitle" = "NEWS";
+"NewsTitleOffline" = "NEWS offline";

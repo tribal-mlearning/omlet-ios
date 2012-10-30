@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PreferenceSpecifiers</key>
+        <array>
+            <dict>
+                <key>Title</key>
+                <string>General</string>
+                <key>Type</key>
+                <string>PSGroupSpecifier</string>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>PSMultiValueSpecifier</string>
+                <key>Title</key>
+                <string>Data use</string>
+                <key>Key</key>
+                <string>omlet_DataUse</string>
+                <key>DefaultValue</key>
+                <string>2</string>
+                <key>Values</key>
+                <array>
+                    <string>1</string><string>2</string><string>3</string>
+                </array>
+                <key>Titles</key>
+                <array>
+                    <string>WiFi only</string><string>WiFi and cellular data</string><string>Cellular data only</string>
+                </array>
+            </dict>
+            <dict>
+                <key>Title</key>
+                <string>Synchronization</string>
+                <key>Type</key>
+                <string>PSGroupSpecifier</string>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>PSMultiValueSpecifier</string>
+                <key>Title</key>
+                <string>Sync interval</string>
+                <key>Key</key>
+                <string>omlet_SyncFreq</string>
+                <key>DefaultValue</key>
+                <string>1</string>
+                <key>Values</key>
+                <array>
+                    <string>1</string><string>2</string><string>3</string><string>4</string>
+                </array>
+                <key>Titles</key>
+                <array>
+                    <string>5 minutes</string><string>10 minutes</string><string>15 minutes</string><string>Manual</string>
+                </array>
+            </dict>
+            <dict>
+                <key>Title</key>
+                <string>Info</string>
+                <key>Type</key>
+                <string>PSGroupSpecifier</string>
+            </dict>
+            <dict>
+                <key>Title</key>
+                <string>Version</string>
+                <key>Type</key>
+                <string>PSTitleValueSpecifier</string>
+                <key>Key</key>
+                <string>omlet_Ver</string>
+                <key>DefaultValue</key>
+                <string>-</string>
+            </dict>
+        </array>
+        <key>StringsTable</key>
+        <string>Root</string>
+    </dict>
+</plist>

@@ -1,0 +1,17 @@
+
+CREATE TABLE IF NOT EXISTS settings (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    userId TEXT,
+    key TEXT,
+    value TEXT,
+    objectId TEXT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tracking (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    userId TEXT NOT NULL,
+    objectId TEXT NOT NULL,
+    sender TEXT NOT NULL,
+    deviceTimestamp DATETIME NOT NULL DEFAULT (CURRENT_TIMESTAMP),
+    addInfo TEXT NULL
+);
